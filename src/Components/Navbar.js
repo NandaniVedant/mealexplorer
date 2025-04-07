@@ -68,7 +68,7 @@ const Navbar = ({ theme, toggleTheme, user, setUser }) => {
                     onChange={(e) => setEmail(e.target.value)}
                     style={{ maxWidth: '200px' }}
                   />
-                  <button className="btn btn-success" onClick={handleLogin}>
+                  <button className="btn btn-primary" onClick={handleLogin}>
                     Login
                   </button>
                 </div>

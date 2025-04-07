@@ -27,7 +27,7 @@ const Wishlist = () => {
       <h2 className="mb-3">My Wishlist</h2>
 
       {/* Back to Home Button */}
-      <Link to="/" className="btn btn-secondary mb-4">Back to Home</Link>
+      <Link to="/" className="btn btn-primary mb-4">Back to Home</Link>
 
       <div className="row">
         {wishlist.length === 0 ? (
